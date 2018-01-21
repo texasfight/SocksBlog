@@ -1,0 +1,23 @@
+{
+  "name":"irvshen/ohmysocks",
+  "type":"website",
+  "description": "Oh My Socks is the blog for all things Socks, the Cat",
+  "authors": [
+    {
+      "name": "Irvin Shen",
+      "email": "irvinshen.texas@gmail.com"
+    },
+    {
+      "name": "Melissa Shen",
+      "email": "melissahammonds@gmail.com"
+    }
+  ],
+  "require": {
+    "php":"^7.2.0",
+    "ext-ctype": "*",
+    "ext-filter": "*"
+  },
+  "require-dev": {
+    "heroku/heroku-buildpack-php": "*"
+  }
+}
